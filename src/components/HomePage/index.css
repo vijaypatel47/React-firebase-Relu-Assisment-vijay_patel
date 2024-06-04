@@ -1,0 +1,269 @@
+.home-page-container {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  position: sticky;
+}
+.first-container {
+  margin: 20px;
+  height: 100%;
+  width: 40vh;
+  background-color: transparent;
+}
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  height: 10vh;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.tab-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+}
+.card-tab-cont {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.logo-tab {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+.logo-name {
+  font-size: 15px;
+  padding-left: 20px;
+  font-weight: 600;
+  color: black;
+}
+.logout-btn {
+  display: flex;
+  align-self: flex-end;
+  color: #88c2bb;
+  border: none;
+  background-color: transparent;
+}
+.copyright-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin: 10px;
+  color: gray;
+}
+.mid-container {
+  margin: 20px;
+  height: 100%;
+  width: 100vh;
+  background-color: transparent;
+}
+.top-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  height: 10vh;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.common-cont {
+  display: flex;
+  align-items: center;
+}
+.common-space-left {
+  margin-left: 20px;
+}
+.search-input {
+  border: none;
+}
+.mid-card-scroll {
+  overflow-y: auto;
+  height: 100vh;
+}
+.mid-card-container {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.name-details-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+.profile-img {
+  height: 50px;
+  width: 50px;
+}
+.details-customer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.font {
+  color: gray;
+}
+.red {
+  color: red;
+  font-weight: 500;
+}
+.big-img {
+  width: 100%;
+}
+.mid-footer-cont {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px;
+}
+.footer-card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  width: 100%;
+  margin-left: 20px;
+}
+.footer-img {
+  height: 250px;
+  width: 50vh;
+  border-radius: 10px;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star {
+  width: 20px;
+  height: 20px;
+}
+.last-container {
+  margin: 20px;
+  height: 100%;
+  width: 40vh;
+  background-color: transparent;
+}
+.top-last-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #88c2bb;
+  height: 10vh;
+  width: 100%;
+  margin-bottom: 30px;
+  color: white;
+}
+.artist-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  border-radius: 10px;
+}
+.artist {
+  font-weight: 600;
+  padding-right: 50px;
+}
+.last-card-cont1 {
+  background-image: url('https://res.cloudinary.com/drgheojrx/image/upload/v1717505999/pexels-ekaterina-12203460_zogxrc.png');
+  height: 180px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+.card-in-to-card-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.img-card {
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+}
+.last-card-cont2 {
+  background-image: url('https://res.cloudinary.com/drgheojrx/image/upload/v1717506040/pexels-genaro-serv%C3%ADn-763210_b77eec.png');
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 180px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.last-card-cont3 {
+  background-image: url('https://res.cloudinary.com/drgheojrx/image/upload/v1717506000/pexels-fiona-art-5022849_coivsv.png');
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 180px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.last-card-cont4 {
+  background-image: url('https://res.cloudinary.com/drgheojrx/image/upload/v1717502338/pexels-pixabay-164455_wmydku.png');
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 180px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.last-card-cont5 {
+  background-image: url('https://res.cloudinary.com/drgheojrx/image/upload/v1717502337/Image_40_nbdtvl.png');
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 180px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.last-footer-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: gray;
+}
